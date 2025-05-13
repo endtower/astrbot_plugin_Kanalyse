@@ -6,20 +6,7 @@ from astrbot.api.event import filter, AstrMessageEvent
 from astrbot.api.star import Context, Star, register
 from astrbot.api import logger
 
-@register("astrbot_plugin_chatsummary", "laopanmemz", "一个基于LLM的历史聊天记录总结插件", "1.0.1")
-# 聊天记录总结插件主类，继承自Star基类
-class ChatSummary(Star):
-    # 初始化插件实例
-    def __init__(self, context: Context):
-        super().__init__(context)
 
-    # 注册指令的装饰器。指令名为 消息总结 。注册成功后，发送 `/消息总结` 就会触发这个指令。
-    @filter.command("现场分析")  # 消息历史获取与处理
-    async def summary(self, event: AstrMessageEvent, count: int = None, debug:str=None):
-        """触发现场分析，命令加空格，后面跟获取聊天记录的数量即可（例如“ /现场分析 20 ”）"""
-        from astrbot.core.platform.sources.aiocqhttp.aiocqhttp_message_event import AiocqhttpMessageEvent
-        assert isinstance(event, AiocqhttpMessageEvent)
-        client = event.bot
 
         # 检查是否传入了要总结的聊天记录数量，未传入则返回错误，并终止事件传播
         if count is None:
