@@ -16,6 +16,7 @@
 - 90% 争议在AI介入后停止升级
 
 ![image](https://github.com/user-attachments/assets/a8d5feb3-e59d-4e34-98ab-6114d0513de8)
+![de8427b1d41c393e667f3508854a7817](https://github.com/user-attachments/assets/35f1827f-645f-4739-b373-25f54a657d63)
 
 ## 使用方式
 1. /现场分析 [数量]
