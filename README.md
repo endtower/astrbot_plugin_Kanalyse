@@ -14,6 +14,7 @@
 - 重大社会热点争议 10+ 次（订婚强奸案被判3年等、胖猫事件重提等）
 - 日常群组冲突 30+ 次
 - 90% 争议在AI介入后停止升级
+
 ![image](https://github.com/user-attachments/assets/a8d5feb3-e59d-4e34-98ab-6114d0513de8)
 
 ## 使用方式
