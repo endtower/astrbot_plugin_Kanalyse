@@ -1,0 +1,8 @@
+{
+  "prompt": {
+    "description": "提示词",
+    "type": "string",
+    "hint": "在此填写LLM提示词",
+    "default": "- Role: 分析聊天记录的内容"
+  }
+}
