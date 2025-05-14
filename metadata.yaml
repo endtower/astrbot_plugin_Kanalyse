@@ -3,6 +3,6 @@ desc: 基于大语言模型的群聊分析插件，提供聊天记录总结和�
 本意为让AI当判官直接评判对错，后来发现AI无法成为一个裁判判断是非，但AI能以他绝对的客观性，强行把大家拉回观众席上，客观的看待一个事件。。 # 插件简短描述
 help: 1. /现场分析 [数量]
 2. 在群内发送 `/分析聊天记录` 。 # 插件的帮助信息
-version: v1.0 # 插件版本号。格式：v1.1.1 或者 v1.1
+version: v1.01# 插件版本号。格式：v1.1.1 或者 v1.1
 author: End_tower # 作者
 repo: https://github.com/endtower/astrbot_plugin_Kanalyse # 插件的仓库地址
