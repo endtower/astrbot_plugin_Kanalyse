@@ -228,7 +228,7 @@ class ChatSummary(Star):
 
         # LLM处理流程
         def load_prompt():
-            with open(os.path.join('data','config','astrbot_plugin_Kanalyse_config.json'), 'r', encoding='utf-8-sig') as a:
+            with open(os.path.join('data','config','astrbot_plugin_kanalyse_config.json'), 'r', encoding='utf-8-sig') as a:
                 config = json.load(a)
                 prompt_str = config.get('prompt',{})
                 return str(prompt_str.replace('\\n','\n'))
