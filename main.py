@@ -43,7 +43,7 @@ tmpl = '''
 </html>
 '''
 
-@register("astrbot_plugin_Kanalyse", "End_tower", "冲突调停", "1.0")
+@register("astrbot_plugin_Kanalyse", "End_tower", "冲突调停", "1.01")
 # 聊天记录总结插件主类，继承自Star基类
 class ChatSummary(Star):
     # 初始化聊天分析插件实例，继承Star基类
